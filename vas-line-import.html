@@ -150,7 +150,7 @@
 
                         <div class="actions">
                             <button type="button" class="btn btn-secondary"><i class="zmdi zmdi-cloud-download"></i> Download Template </button>
-                            <button type="button" class="btn btn-secondary"><i class="zmdi zmdi-cloud-upload"></i> Upload </button>
+                            <button class="btn btn-default" data-toggle="modal" data-target="#modal-default"><i class="zmdi zmdi-cloud-upload">Upload</i></button>
                             <i class="actions__item zmdi zmdi-search" data-sa-action="toolbar-search-open"></i>
                             <a href="#" class="actions__item zmdi zmdi-help-outline hidden-xs-down"></a>
                         </div>
@@ -528,6 +528,23 @@
             </div>
             </section>
         </main>
+
+        <div class="modal fade" id="modal-default" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title pull-left">Default modal</h5>
+                    </div>
+                    <div class="modal-body">
+                        Curabitur blandit mollis lacus. Nulla sit amet est. Suspendisse nisl elit, rhoncus eget, elementum ac, condimentum eget, diam. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. Cras sagittis.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-link">Save changes</button>
+                        <button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
        
         <!-- Javascript -->
